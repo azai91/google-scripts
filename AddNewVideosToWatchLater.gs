@@ -7,7 +7,7 @@ function AddAddNewVideosToWatchLaterTrigger()
 {
   ScriptApp.newTrigger('AddNewVideosToWatchLater')
   .timeBased()
-  .everyHours(1)
+  .everyMinutes(1)
   .create();
 }
 
