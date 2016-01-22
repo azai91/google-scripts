@@ -15,7 +15,7 @@ function AddNewVideosToWatchLater()
 {
   var regexp = new RegExp(".*/watch%3Fv%3D([^%]+)%.*", "gi");
 
-  var threads = GmailApp.search('in:anywhere is:unread from:noreply@youtube.com');
+  var threads = GmailApp.search('in:inbox is:unread from:noreply@youtube.com');
   for (var i in threads) {
     try {
       messages = threads[i].getMessages()
