@@ -1,6 +1,3 @@
-// http://www.reddit.com/user/DiRaven
-// 11/01/2016
-
 // Run this once to grant script access and add trigger automatically
 // Automatically adds new subscription videos from youtube to watch later list (if you have email notifications for those turned on)
 function AddAddNewVideosToWatchLaterTrigger()
